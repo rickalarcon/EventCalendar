@@ -1,2 +1,3 @@
-# EventCalendar
-Event Calendar
+# Getting Started 
+
+
