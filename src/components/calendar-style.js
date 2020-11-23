@@ -22,13 +22,11 @@ export const GetMonthButton = styled.button`
   }
 `;
 
-
 export const Month = styled.p`
   font-weight: 700;
   font-size: 14px;
   margin: 0 0 0 8px;
   color: rgb(0, 102, 204);
-
 `;
 
 export const ChoiceMonth = styled.div`
@@ -44,7 +42,6 @@ export const Year = styled.span`
   padding-left: 5px;
 `;
 
-
 export const WeekDay = styled.th`
   color: #92929d;
   text-transform: uppercase;
@@ -56,12 +53,12 @@ export const WeekDay = styled.th`
 
 export const SelectedDayStyles = css`
   background-color: rgb(35, 183, 246); //light blue ish
-  color: white;                        //text color for the selected day!
+  color: white; //text color for the selected day!
   border-radius: 4px;
 `;
 
 export const EventMarkerWrapper = styled.div`
-    width: 100%;
+  width: 100%;
   position: absolute;
   bottom: 10px;
   display: flex;
@@ -84,3 +81,10 @@ export const Day = styled.div`
   height: 90%;
   margin: 15%;
 `;
+
+//export * from "./calendar-style.js";
+// export {Wrapper, MonthSelector,
+//  Month, Year,MonthButtons,
+//  MonthPickButton, WeekDay,
+//  EventMarkerWrapper,EventMarker,
+//  Day,SelectedDayStyles };
